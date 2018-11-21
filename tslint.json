@@ -1,0 +1,30 @@
+{
+  "extends": [
+    "tslint:recommended",
+    "tslint-react",
+    "tslint-config-prettier",
+    "tslint-eslint-rules"
+  ],
+  "linterOptions": {
+    "exclude": [
+      "config/**/*.js",
+      "node_modules/**/*.ts",
+      "coverage/lcov-report/*.js",
+      "dist/**/*.js"
+    ]
+  },
+  "rules": {
+    "object-literal-sort-keys": false,
+    "interface-name": false,
+    "quotemark": [true, "single", "jsx-double"],
+    "align": [true, "elements", "members", "parameters", "statements"],
+    "no-trailing-whitespace": true,
+    "semicolon": [true, "always"],
+    "variable-name": [true, "ban-keywords", "check-format"],
+    "class-name": true,
+    "eofline": true,
+    "indent": [true, "spaces", 2],
+    "max-file-line-count": [true, 250],
+    "max-line-length": [true, 120]
+  }
+}
