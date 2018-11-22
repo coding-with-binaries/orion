@@ -20,7 +20,12 @@
     "align": [true, "elements", "members", "parameters", "statements"],
     "no-trailing-whitespace": true,
     "semicolon": [true, "always"],
-    "variable-name": [true, "ban-keywords", "check-format"],
+    "variable-name": [
+      true,
+      "ban-keywords",
+      "check-format",
+      "allow-pascal-case"
+    ],
     "class-name": true,
     "eofline": true,
     "indent": [true, "spaces", 2],
