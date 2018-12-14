@@ -1,0 +1,60 @@
+.orion-alert {
+  min-height: 40px;
+  position: relative;
+  box-sizing: border-box;
+  display: grid;
+  grid-template-columns: 36px auto 36px;
+  width: auto;
+  border-radius: 0.125rem;
+  margin-top: 8px;
+  padding: 0px 12px;
+  align-items: center;
+}
+
+.orion-alert.success {
+  border: 1px solid #4caf16;
+  background-color: #f3ffed;
+}
+
+.orion-alert.info {
+  border: 1px solid #0696de;
+  background-color: #e7f4fb;
+}
+
+.orion-alert.warning {
+  border: 1px solid #ffd03a;
+  background-color: #fff8e2;
+}
+
+.orion-alert.error {
+  border: 1px solid #d24139;
+  background-color: #fff1f0;
+}
+
+.orion-alert .icon-wrapper,
+.orion-alert .dismiss {
+  display: flex;
+  justify-content: center;
+}
+
+.orion-alert .icon-wrapper.success {
+  color: #4caf16;
+}
+
+.orion-alert .icon-wrapper.info {
+  color: #0696de;
+}
+
+.orion-alert .icon-wrapper.warning {
+  color: #ffd03a;
+}
+
+.orion-alert .icon-wrapper.error {
+  color: #d24139;
+}
+
+.orion-alert .children {
+  font-size: 14px;
+  color: #777777;
+  margin-left: 8px;
+}
