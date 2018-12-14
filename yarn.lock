@@ -1079,6 +1079,11 @@
     "@webassemblyjs/wast-parser" "1.7.6"
     "@xtuc/long" "4.2.1"
 
+"@webcomponents/custom-elements@1.0.0":
+  version "1.0.0"
+  resolved "https://registry.yarnpkg.com/@webcomponents/custom-elements/-/custom-elements-1.0.0.tgz#b1726e12074b556aa31b93f36ff6a03a435259c4"
+  integrity sha1-sXJuEgdLVWqjG5Pzb/agOkNSWcQ=
+
 "@xtuc/ieee754@^1.2.0":
   version "1.2.0"
   resolved "https://registry.yarnpkg.com/@xtuc/ieee754/-/ieee754-1.2.0.tgz#eef014a3145ae477a1cbc00cd1e552336dceb790"

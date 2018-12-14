@@ -4,6 +4,7 @@
   "private": true,
   "main": "build/orion.js",
   "dependencies": {
+    "@webcomponents/custom-elements": "1.0.0",
     "react": "16.7.0-alpha.2",
     "react-dom": "^16.6.3",
     "react-router-dom": "^4.3.1",

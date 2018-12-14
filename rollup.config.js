@@ -17,7 +17,7 @@ export default {
     minify({
       comments: false
     }),
-    typescript(),
+    typescript({ tsconfig: './rollup.tsconfig.json' }),
     commonjs()
   ]
 };
