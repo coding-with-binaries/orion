@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { memo } from 'react';
 import {
   IoIosCheckmarkCircle,
   IoIosClose,
@@ -17,7 +17,7 @@ const defaultProps = {
   dismissable: true as boolean
 };
 
-export const Alert: React.SFC<Props> = props => {
+const Alert: React.SFC<Props> = props => {
   const [dismissed, setDismissed] = React.useState(false);
   const { type, children, dismissable } = props;
 
@@ -54,3 +54,5 @@ export const Alert: React.SFC<Props> = props => {
 };
 
 Alert.defaultProps = defaultProps;
+
+export default memo(Alert);

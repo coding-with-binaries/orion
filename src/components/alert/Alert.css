@@ -6,7 +6,7 @@
   grid-template-columns: 36px auto 36px;
   width: auto;
   border-radius: 0.125rem;
-  margin-top: 8px;
+  margin: 8px;
   padding: 0px 12px;
   align-items: center;
 }

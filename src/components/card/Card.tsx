@@ -1,11 +1,28 @@
-import React, { memo, SFC } from 'react';
+import React from 'react';
+import './Card.css';
 
-interface Props {
-  type?: 'clickable';
-}
+type Props = {
+  onClick?: () => void;
+} & Partial<DefaultProps>;
 
-const Card: SFC<Props> = props => {
-  return <div>Card</div>;
+type DefaultProps = Readonly<typeof defaultProps>;
+
+const defaultProps = {
+  clickable: true as boolean
 };
 
-export default memo(Card);
+const Card: React.SFC<Props> = props => {
+  const { clickable, children, onClick } = props;
+  return (
+    <div
+      className={`orion-card${clickable ? ' clickable' : ''}`}
+      onClick={onClick}
+    >
+      {children}
+    </div>
+  );
+};
+
+Card.defaultProps = defaultProps;
+
+export default Card;

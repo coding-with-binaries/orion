@@ -1,0 +1,38 @@
+.orion-card {
+  min-height: 60px;
+  max-width: 400px;
+  overflow: hidden;
+  box-shadow: 0px 1px 3px 0px rgba(0, 0, 0, 0.2),
+    0px 1px 1px 0px rgba(0, 0, 0, 0.14), 0px 2px 1px -1px rgba(0, 0, 0, 0.12);
+  border-radius: 4px;
+  margin: 8px;
+  background-color: #fff;
+}
+
+.orion-card.clickable {
+  cursor: pointer;
+}
+
+.orion-card.clickable:hover {
+  box-shadow: 0px 1px 3px 0px rgba(0, 85, 125, 0.8),
+    0px 1px 1px 0px rgba(0, 85, 125, 0.8),
+    0px 2px 1px -1px rgba(0, 85, 125, 0.7);
+}
+
+.orion-card .card-header,
+.orion-card .card-footer {
+  padding-left: 12px;
+  height: 48px;
+  display: flex;
+  align-items: center;
+}
+
+.orion-card .card-body {
+  padding: 12px;
+  min-height: 100px;
+}
+
+.orion-card .card-header:not(:last-child),
+.orion-card .card-body:not(:last-child) {
+  border-bottom: 1px solid #e8e8e8;
+}
