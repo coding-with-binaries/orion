@@ -1,4 +1,4 @@
-import React, { memo } from 'react';
+import React from 'react';
 import {
   IoIosCheckmarkCircle,
   IoIosClose,
@@ -55,4 +55,4 @@ const Alert: React.SFC<Props> = props => {
 
 Alert.defaultProps = defaultProps;
 
-export default memo(Alert);
+export default Alert;

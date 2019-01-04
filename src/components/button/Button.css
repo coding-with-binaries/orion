@@ -1,0 +1,164 @@
+.orion-btn,
+.orion-btn.info,
+.orion-btn.md,
+.orion-btn.solid {
+  line-height: 1.499;
+  display: inline-block;
+  font-weight: 400;
+  text-align: center;
+  cursor: pointer;
+  border: 1px solid transparent;
+  margin: 8px;
+  padding: 0 16px;
+  font-size: 14px;
+  border-radius: 4px;
+  height: 32px;
+  min-width: 100px;
+  position: relative;
+  color: #fff;
+  background-color: #0696de;
+  border-color: #0696de;
+  text-transform: uppercase;
+}
+
+.orion-btn.solid.disabled,
+.orion-btn.solid.disabled:hover {
+  cursor: not-allowed;
+  background: #cecece !important;
+  border-color: #cecece !important;
+}
+
+.orion-btn.outline.disabled,
+.orion-btn.outline.disabled:hover {
+  cursor: not-allowed;
+  background: transparent !important;
+  border-color: #cecece !important;
+  color: #cecece !important;
+}
+
+.orion-btn.link.disabled,
+.orion-btn.link.disabled:hover {
+  cursor: not-allowed;
+  background: transparent !important;
+  border-color: transparent !important;
+  color: #cecece !important;
+}
+
+.orion-btn.sm {
+  font-size: 13px;
+  padding: 0 8px;
+  height: 24px;
+}
+
+.orion-btn.lg {
+  font-size: 15px;
+  padding: 0 16px;
+  height: 40px;
+}
+
+.orion-btn.solid.info:hover {
+  background-color: #006192;
+  border-color: #006192;
+}
+
+.orion-btn.solid.success {
+  background-color: #4caf16;
+  border-color: #4caf16;
+}
+
+.orion-btn.solid.success:hover {
+  background-color: #2b6b08;
+  border-color: #2b6b08;
+}
+
+.orion-btn.solid.warning {
+  background-color: #ffd03a;
+  border-color: #ffd03a;
+}
+
+.orion-btn.solid.warning:hover {
+  background-color: #ce9e00;
+  border-color: #ce9e00;
+}
+
+.orion-btn.solid.error {
+  background-color: #d24139;
+  border-color: #d24139;
+}
+
+.orion-btn.solid.error:hover {
+  background-color: #a71e17;
+  border-color: #a71e17;
+}
+
+.orion-btn.outline {
+  color: #0696de;
+  background-color: #fff;
+  border-color: #0696de;
+}
+
+.orion-btn.outline:hover {
+  background-color: #e7f4fb;
+}
+
+.orion-btn.outline.success {
+  color: #4caf16;
+  border-color: #4caf16;
+}
+
+.orion-btn.outline.success:hover {
+  background-color: #f3ffed;
+}
+
+.orion-btn.outline.warning {
+  color: #ffd03a;
+  border-color: #ffd03a;
+}
+
+.orion-btn.outline.warning:hover {
+  background-color: #fff8e2;
+}
+
+.orion-btn.outline.error {
+  color: #d24139;
+  border-color: #d24139;
+}
+
+.orion-btn.outline.error:hover {
+  background-color: #fff1f0;
+}
+
+.orion-btn.link {
+  font-weight: 500;
+  border: none;
+  color: #0696de;
+  background-color: #fff;
+}
+
+.orion-btn.link:hover {
+  color: #006192;
+}
+
+.orion-btn.link.success {
+  color: #4caf16;
+}
+
+.orion-btn.link.success:hover {
+  color: #2b6b08;
+}
+
+.orion-btn.link.warning {
+  color: #ffd03a;
+}
+
+.orion-btn.link.warning:hover {
+  color: #ce9e00;
+}
+
+.orion-btn.link.error {
+  color: #d24139;
+}
+
+.orion-btn.link.error:hover {
+  color: #a71e17;
+}
