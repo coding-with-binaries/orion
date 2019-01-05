@@ -28,12 +28,13 @@ const Button: React.SFC<Props> = props => {
     onClick
   } = props;
 
-  const className = `orion-btn ${family} ${type} ${size} ${
+  const classNames = `orion-btn ${family} ${type} ${size} ${
     disabled ? 'disabled' : ''
   }`;
+
   return (
     <button
-      className={className}
+      className={classNames}
       disabled={disabled}
       onClick={onClick}
       type={htmlType}
