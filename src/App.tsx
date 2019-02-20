@@ -6,17 +6,37 @@ import {
   Card,
   CardBody,
   CardFooter,
-  CardHeader
+  CardHeader,
+  Grid,
+  Track
 } from './components';
 
 class App extends Component {
   public render() {
     return (
       <>
-        <Alert type="info">Info Alert</Alert>
-        <Alert type="success">Success Alert</Alert>
-        <Alert type="warning">Warning Alert</Alert>
-        <Alert type="error">Error Alert</Alert>
+        <Grid rows={['1fr', '1fr']} columns={['1fr', '1fr']}>
+          <Track
+            column={{ start: '1', end: '2' }}
+            row={{ start: '1', end: '2' }}>
+            <Alert type="info">Info Alert</Alert>
+          </Track>
+          <Track
+            column={{ start: '2', end: '3' }}
+            row={{ start: '1', end: '2' }}>
+            <Alert type="success">Success Alert</Alert>
+          </Track>
+          <Track
+            column={{ start: '2', span: '1' }}
+            row={{ start: '2', end: '3' }}>
+            <Alert type="warning">Warning Alert</Alert>
+          </Track>
+          <Track
+            column={{ start: '1', end: '2' }}
+            row={{ start: '2', end: '3' }}>
+            <Alert type="error">Error Alert</Alert>
+          </Track>
+        </Grid>
         <Card>
           <CardHeader>Card Header</CardHeader>
           <CardBody>Card Body</CardBody>
